@@ -1,0 +1,17 @@
+{
+  "name": "real-life-simulator",
+  "version": "0.2.0",
+  "description": "A phone-based life simulation of living on a minimum wage. Indonesia, 2026 UMP/UMK. Bahasa Indonesia and English.",
+  "private": true,
+  "scripts": {
+    "build": "node tools/build.mjs --standalone",
+    "build:artifact": "node tools/build.mjs",
+    "test": "node --test test/engine.test.js",
+    "sources": "node tools/sources-table.mjs",
+    "check": "npm test && npm run build && npm run sources"
+  },
+  "devDependencies": {
+    "lucide": "0.344.0"
+  },
+  "engines": { "node": ">=18" }
+}

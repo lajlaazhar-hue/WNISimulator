@@ -1,0 +1,10 @@
+{
+  "engine": [
+    "src/money.js", "src/i18n.js",
+    "src/data/sources.js", "src/data/indonesia.js", "src/data/countries.js", "src/data/food.js", "src/data/catalog.js", "src/data/baskets.js",
+    "src/data/jobs.js", "src/data/world.js", "src/data/travel.js", "src/data/lenders.js",
+    "src/engine/core.js", "src/engine/life.js", "src/engine/food.js", "src/engine/shop.js", "src/engine/transport.js",
+    "src/engine/work.js", "src/engine/finance.js", "src/engine/travel.js", "src/engine/day.js"
+  ],
+  "ui": ["src/ui/base.js", "src/ui/setup.js", "src/ui/home.js", "src/ui/apps-money.js", "src/ui/apps-life.js", "src/ui/apps-shop.js", "src/ui/apps-work.js", "src/ui/apps-info.js", "src/ui/main.js"]
+}
